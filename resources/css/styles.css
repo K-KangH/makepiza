@@ -283,6 +283,11 @@ body {
   background-size: 100%;
 }
 
+.sec-intro {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
 .sec-intro .logobox {
   position: absolute;
   width: 130px;
@@ -291,15 +296,28 @@ body {
   transform: rotate(45deg);
 }
 .sec-intro .logobox-red {
-  top: 7.4%;
-  left: 19.8%;
-  border-top-left-radius: 15px; /* 왼쪽 위 모서리 */
-  border-top-right-radius: 15px; /* 오른쪽 위 모서리 */
+  position: relative;
+  top: 4.5%;
+  left: 19.7%;
+  border-top-left-radius: 12px; /* 왼쪽 위 모서리 */
+  border-top-right-radius: 12px; /* 오른쪽 위 모서리 */
   border-bottom-right-radius: 0px; /* 오른쪽 아래 모서리 */
   border-bottom-left-radius: 0px; /* 왼쪽 아래 모서리 */
+  background-color: #e71c29;
+}
+.sec-intro .logobox-red .logodot-1 {
+  position: absolute;
+  top: 50%; /* 중앙 배치 */
+  left: 50%; /* 중앙 배치 */
+  transform: translate(-50%, -50%); /* 정확한 중앙 배치를 위해 */
+  width: 45px;
+  height: 45px;
+  border: 2px solid white;
+  border-radius: 22.5px;
+  background-color: white;
 }
 .sec-intro .logobox-blue {
-  top: 20%;
+  top: 21.5%;
   left: 10.4%;
   background-color: #2471b4;
   border-top-left-radius: 0px; /* 왼쪽 위 모서리 */
