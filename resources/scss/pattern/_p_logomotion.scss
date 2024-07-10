@@ -1,0 +1,38 @@
+//임시
+body {
+    background-image: url(../img/logoself.png);
+    background-repeat: no-repeat;
+    background-position: center 20%;
+    background-size: 100%;
+}
+
+.sec-intro {
+    .logobox {
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        border: 2px solid white;
+        transform: rotate(45deg);
+    }
+    .logobox-red {
+        top: 7.4%;
+        left: 19.8%;
+        border-top-left-radius: 15px; /* 왼쪽 위 모서리 */
+        border-top-right-radius: 15px; /* 오른쪽 위 모서리 */
+        border-bottom-right-radius: 0px; /* 오른쪽 아래 모서리 */
+        border-bottom-left-radius: 0px; /* 왼쪽 아래 모서리 */
+        // background-color: #e71c29;
+    }
+    .logobox-blue {
+        top: 20%;
+        left: 10.4%;
+        background-color: #2471b4;
+        border-top-left-radius: 0px; /* 왼쪽 위 모서리 */
+        border-top-right-radius: 0px; /* 오른쪽 위 모서리 */
+        border-bottom-right-radius: 15px; /* 오른쪽 아래 모서리 */
+        border-bottom-left-radius: 15px; /* 왼쪽 아래 모서리 */
+    }
+}
+
+//background-color: #2471b4;
+//#e71c29   red
